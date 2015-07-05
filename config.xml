@@ -20,12 +20,10 @@
 
 
 
-	<preference name="SplashScreen" value="screen" width="200 height="300" />
-<preference name="SplashScreenDelay" value="3000"/>
-<preference name="AutoHideSplashScreen" value="false"/>
+<preference name="icon" src="icon.png" />
 
-<icon src="icon.png"/>
-<splash src="splash.png"/>
+<preference name="SplashScreen" src="splash.png" value="screen"/>
+<preference name="SplashScreenDelay" value="5000" />
 
 <icon gap:platform="ios" src="res/icon/ios/icon-small.png" width="29" height="29"/>
 <icon gap:platform="ios" src="res/icon/ios/icon-small_2x.png" width="58" height="58"/>
